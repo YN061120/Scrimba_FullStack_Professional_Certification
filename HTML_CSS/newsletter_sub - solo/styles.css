@@ -1,0 +1,54 @@
+body{
+    margin: 0;
+    text-align: center;
+    color:  #121212;
+}
+
+#stadium{
+    width: 380px;
+}
+
+#main-p{
+    width: 370px;
+    margin: 10px auto 30px auto;
+    font-style: italic;
+    
+}
+
+#subs-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field{
+    border: 3px solid #121212;
+    text-align: center;
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.input-btn{
+    background-color: #121212;
+    color: white;
+    border: none;
+    width: 188px;
+    border:3px solid #121212;
+    padding: 5px 10px;
+    font-weight: 600;
+}
+
+.footer-p, #footer-link{
+    font-style: italic;
+    color: #121212;
+    
+}
+
+/* utility classes */
+.font-size{
+    font-size: 12px;
+}
